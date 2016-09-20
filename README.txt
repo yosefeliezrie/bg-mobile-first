@@ -35,3 +35,6 @@ CHANGELOG
 
 = 1.0.4 =
 * Added sticky message widget area
+
+= 1.0.5 =
+* Add full page template for beaver builder and page builders
