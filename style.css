@@ -1328,6 +1328,22 @@ p.form-submit,
 	margin-bottom: 0;
 }
 
+/* Full Width Page (Beaver Builder)
+-------------------------------------------- */
+
+.fl-builder-full .site-inner {
+	max-width: none;
+	padding-top: 0;
+}
+
+@media only screen and (max-width: 800px) {
+
+	.fl-builder-full .site-inner {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
@@ -1608,3 +1624,5 @@ p.form-submit,
 	}
 
 }
+
+
