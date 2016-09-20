@@ -91,3 +91,9 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Sticky Message', 'bg-mobile-first' ),
 	'description' => __( 'This is the sticky message widget area.', 'bg-mobile-first' ),
 ) );
+
+//* Remove Header/Fooder Width Area
+remove_action( 'genesis_header', 'genesis_header_markup_open', 5 );
+remove_action( 'genesis_header', 'genesis_do_header' );
+remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
+remove_action( 'genesis_before_footer', 'genesis_footer_widget_areas' );
